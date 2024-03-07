@@ -3,7 +3,7 @@ import streamlit as st
 from langchain_community.llms import OpenAI
 
 st.title(' Stylus Test App')
-openai_api_key = st.sidebar.text_input('Open API key:')
+openai_api_key = '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'
 
 
 def generate_response(input_text):
